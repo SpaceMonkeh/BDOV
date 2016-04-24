@@ -1,0 +1,80 @@
+<TaskList Name="Olvia Seas">
+  <Loops>1</Loops>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav: 144.68,819.59,-71.41</Task>
+  <Task>Rest: 7000</Task>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav: 84.71,831.9,-78.16</Task>
+  <Task>Interact NPC: Ernill</Task>
+  <Task>OpenNPCWarehouse: Ernill</Task>
+  <Task>PutInWarehouse: Silver Key, PartialOK</Task>
+  <Task>PutInWarehouse: Silver Coins, PartialOK</Task>
+  <Task>PutInWarehouse: Ancient Relic Crystal Shard, PartialOK</Task>
+  <Task>CloseNPCWarehouse: True</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav: -7.86,865.71,-80.02</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav: -5.17,878.85,-81.91</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): W</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): W</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): R</Task>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav: -1977.15,2331.63,-82.08</Task>
+  <Task>Press Key(s): S</Task>
+  <Task>Press Key(s): S</Task>
+  <Task>Press Key(s): S</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): R</Task>
+  <Task>Rest: 2000</Task>
+  <Task>UseInventoryItem: Balenos Special</Task>
+  <Task>UseInventoryItem: Balenos Fishing Rod</Task>
+  <Task>WHILE: Inventory.FreeSlots &gt; 2 &amp;&amp; Player.EquipmentDurability &gt; 1</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): SPACE</Task>
+  <Task>Press Key(s): R</Task>
+  <Task>END WHILE</Task>
+  <Task>Rest: 6000</Task>
+  <Task>UseInventoryItem: Steel Fishing Rod</Task>
+  <Task>UseInventoryItem: Steel Dagger</Task>
+  <Task>WHILE: Inventory.FreeSlots &gt; 2 &amp;&amp; Player.EquipmentDurability &gt; 1</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): SPACE</Task>
+  <Task>Press Key(s): R</Task>
+  <Task>END WHILE</Task>
+  <Task>Rest: 6000</Task>
+  <Task>UseInventoryItem: Yuria Longbow</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): W</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): W</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): R</Task>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav: -5.72,879.5,-82.08</Task>
+  <Task>Press Key(s): S</Task>
+  <Task>Press Key(s): S</Task>
+  <Task>Press Key(s): S</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Press Key(s): R</Task>
+  <Task>Rest: 3000</Task>
+  <Task>Set Waypoint Accuracy: 1</Task>
+  <Task>Goto WorldNav:  -212.72,-1214.42,5.4</Task>
+  <Task>Goto Waypoint: -220.68,-1207.85,5.39</Task>
+  <Task>Target NPC: Larc</Task>
+  <Task>Interact NPC: Larc</Task>
+  <Task>Rest: 2000</Task>
+  <Task>SellAllTradeItems: Larc</Task>
+  <Task>Rest: 2000</Task>
+  <Task>Goto WorldNav: -182.09,-1240.13,5.66</Task>
+  <Task>UseInventoryItem: Balenos Fishing Rod</Task>
+  <Task>Rest: 2000</Task>
+  <Task>RepairAllEquipment: Kardash</Task>
+  <Task>Rest: 5000</Task>
+  <Task>UseInventoryItem: Yuria Longbow</Task>
+  <Task>Goto Task Number: 1</Task>
+</TaskList>
